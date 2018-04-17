@@ -1,10 +1,21 @@
 <style media ="screen">
+	body{
+   		background-image: url("/images/background.jpg");
+		
+	}
+	h1{
+		color:teal;
+		font-size: 50px;
+		font-family: Comic Sans MS;
+		text-align: center;
+	}
 	li{
 		/*height:500px;
 		width:500px;*/
-		color:purple;
-		font-size: 50px;
-   		background-image: url("/images/background.jpg");
+		color:teal;
+		font-size: 70px;
+		text-align: center;
+		font-family: Comic Sans MS;
 		margin-bottom:30px;
 	}
 </style>
@@ -15,7 +26,7 @@
 	{{#each ices}}
 		<li>
 			{{iceCream}}
-			<img src={{photo}}>
 		</li>
+		<img src={{photo}}>
 	{{/each}}
 </ul>
