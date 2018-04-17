@@ -11,13 +11,18 @@ var port = 3000;
 app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
+app.use(express.static("public"));
 
 var ice_creams =[
-	{iceCream:"Totally Baked",
-	 photo:"/images/totally-baked-bulk-detail.png"
+	{iceCream:"Totally Baked!!!!!",
+	 photo:"/images/1.png"
 	},
-	{iceCream:"Coffee Coffee Buzz Buzz"},
-	{iceCream:"chunky Monkey"}
+	{iceCream:"Coffee Coffee Buzz Buzz!!!",
+	 photo:"/images/BuzzCoffee.png"
+	},
+	{iceCream:"Chunky Monkey!!",
+	 photo:"/images/monkeyChunky.png"
+	}
 ]
 
 app.get ("/totally_baked", function(req, res){
