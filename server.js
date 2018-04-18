@@ -15,13 +15,19 @@ app.use(express.static("public"));
 
 var ice_creams =[
 	{iceCream:"Totally Baked!!!!!",
-	 photo:"/images/1.png"
+	 photo:"/images/1.png",
+	 price:"$2.50",
+	 awesomeness: "9/10"
 	},
 	{iceCream:"Coffee Coffee Buzz Buzz!!!",
-	 photo:"/images/BuzzCoffee.png"
+	 photo:"/images/BuzzCoffee.png",
+	 price:"$2.50",
+	 awesomeness:"8/10"
 	},
 	{iceCream:"Chunky Monkey!!",
-	 photo:"/images/monkeyChunky.png"
+	 photo:"/images/monkeyChunky.png",
+	 price:"$2.50",
+	 awesomeness:"10/10"
 	}
 ]
 
